@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Projeto_Cadastro_MVC_3DSTB.Data;
+using Projeto_Cadastro_MVC_3DSTB.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,9 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
                 ServerVersion.AutoDetect(connectionString)
             )
     );
+
+builder.Services
+    .AddScoped<IFuncionarioRepository, FuncionarioRepository>();
 
 var app = builder.Build();
 
