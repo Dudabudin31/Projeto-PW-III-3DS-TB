@@ -1,0 +1,62 @@
+﻿@model Funcionario
+@{
+    ViewData["Title"] = 
+        ViewBag.TipoTela == "Criar"
+        ? "Criar Funcionário"
+        : "Editar Funcionário";
+}
+
+<div class="text-center">
+    <h1 class="display-4">
+        @(
+            ViewBag.TipoTela == "Criar"
+            ? "Criar Funcionário"
+            : "Editar Funcionário"
+        )
+    </h1>
+</div>
+
+<form
+    asp-controller="Funcionario"
+    asp-action="
+    @(
+        ViewBag.TipoTela == "Criar" 
+        ? "Criar"
+        : "Editar"
+    )"
+    method="post"
+>
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" 
+               class="form-control"
+               placeholder="Digite o nome do funcionário"
+               asp-for="Nome"
+        />
+    </div>
+
+    <div class="mb-3">
+        <label for="cpf" class="form-label">CPF</label>
+        <input type="text"
+               class="form-control"
+               placeholder="Digite o CPF do funcionário"
+               asp-for="CPF" />
+    </div>
+
+    <div class="mb-3">
+        <label for="funcao" class="form-label">Função</label>
+        <input type="text"
+               class="form-control"
+               placeholder="Digite a função do funcionário"
+               asp-for="Funcao" />
+    </div>
+
+    <div class="mb-3">
+        <label for="salario" class="form-label">Salário</label>
+        <input type="text"
+               class="form-control"
+               placeholder="Digite o salário do funcionário"
+               asp-for="Salario" />
+    </div>
+</form>

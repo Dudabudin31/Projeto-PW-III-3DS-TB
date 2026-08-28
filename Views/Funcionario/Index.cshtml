@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<Funcionario>
+@{
     ViewData["Title"] = "Listagem de Funcionários";
 }
 
@@ -22,22 +23,28 @@
         </thead>
 
         <tbody>
-            <tr>
-                <td>Samuel</td>
-                <td>123.123.123-45</td>
-                <td>Paramédico</td>
-                <td>R$ 2.500,00</td>
-                <td>
-                    <div class="btn-group" role="group">
-                        <a role="button" class="btn btn-primary">
-                            Editar
-                        </a>
-                        <a role="button" class="btn btn-danger">
-                            Excluir
-                        </a>
-                    </div>
-                </td>
-            </tr>
+            @if (Model != null && Model.Any())
+            {
+                foreach (Funcionario funcionario in Model)
+                {
+                    <tr>
+                        <td>@funcionario.Nome</td>
+                        <td>@funcionario.CPF</td>
+                        <td>@funcionario.Funcao</td>
+                        <td>@funcionario.Salario</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a role="button" class="btn btn-primary">
+                                    Editar
+                                </a>
+                                <a role="button" class="btn btn-danger">
+                                    Excluir
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
         </tbody>
     </table>
 </div>

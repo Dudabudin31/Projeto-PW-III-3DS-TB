@@ -285,3 +285,4 @@ C:\Users\Professor\Desktop\Projeto-PW-III-3DS-TB\obj\Debug\net10.0\refint\Projet
 C:\Users\Professor\Desktop\Projeto-PW-III-3DS-TB\obj\Debug\net10.0\Projeto_Cadastro_MVC_3DSTB.pdb
 C:\Users\Professor\Desktop\Projeto-PW-III-3DS-TB\obj\Debug\net10.0\Projeto_Cadastro_MVC_3DSTB.genruntimeconfig.cache
 C:\Users\Professor\Desktop\Projeto-PW-III-3DS-TB\obj\Debug\net10.0\ref\Projeto_Cadastro_MVC_3DSTB.dll
+C:\Users\Professor\Desktop\Projeto-PW-III-3DS-TB\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

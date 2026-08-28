@@ -18,5 +18,17 @@ namespace Projeto_Cadastro_MVC_3DSTB.Controllers
             List<Funcionario> listaFuncionarios = funcRepository.BuscarTodos();
             return View(listaFuncionarios);
         }
+
+        public IActionResult Criar()
+        {
+            ViewBag.TipoTela = "Criar";
+            return View("~/Views/Funcionario/CriarEditar.cshtml");
+        }
+
+        public IActionResult Editar()
+        {
+            ViewBag.TipoTela = "Editar";
+            return View("~/Views/Funcionario/CriarEditar.cshtml");
+        }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto_Cadastro_MVC_3DSTB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5d5a3ce2a318c8c603b57d3106d54c97b1be388")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca3ca76ae67c478257f3eda033d355ccb25ffa46")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto_Cadastro_MVC_3DSTB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto_Cadastro_MVC_3DSTB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
