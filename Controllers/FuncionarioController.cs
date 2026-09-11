@@ -25,16 +25,24 @@ namespace Projeto_Cadastro_MVC_3DSTB.Controllers
             return View("~/Views/Funcionario/CriarEditar.cshtml");
         }
 
-        public IActionResult Editar()
+        public IActionResult Editar(int id)
         {
+            Funcionario? funcionario = funcRepository.BuscarPorId(id);
             ViewBag.TipoTela = "Editar";
-            return View("~/Views/Funcionario/CriarEditar.cshtml");
+            return View("~/Views/Funcionario/CriarEditar.cshtml", funcionario);
         }
 
         [HttpPost]
         public IActionResult Criar(Funcionario funcionario)
         {
             funcRepository.Adicionar(funcionario);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult Editar(Funcionario funcionario)
+        {
+            funcRepository.Atualizar(funcionario);
             return RedirectToAction("Index");
         }
     }

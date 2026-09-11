@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Professor\\Desktop\\Projeto-PW-III-3DS-TB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|c:\\users\\professor\\desktop\\projeto-pw-iii-3ds-tb\\views\\funcionario\\criareditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|solutionrelative:views\\funcionario\\criareditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|c:\\users\\professor\\desktop\\projeto-pw-iii-3ds-tb\\controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|solutionrelative:controllers\\funcionariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|c:\\users\\professor\\desktop\\projeto-pw-iii-3ds-tb\\repository\\ifuncionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|solutionrelative:repository\\ifuncionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|c:\\users\\professor\\desktop\\projeto-pw-iii-3ds-tb\\views\\funcionario\\criareditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|solutionrelative:views\\funcionario\\criareditar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|c:\\users\\professor\\desktop\\projeto-pw-iii-3ds-tb\\repository\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|solutionrelative:repository\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|c:\\users\\professor\\desktop\\projeto-pw-iii-3ds-tb\\repository\\ifuncionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|solutionrelative:repository\\ifuncionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F388A469-34E7-B610-2CDE-5893449D3BE5}|Projeto_Cadastro_MVC_3DSTB.csproj|c:\\users\\professor\\desktop\\projeto-pw-iii-3ds-tb\\views\\funcionario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CriarEditar.cshtml",
               "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\Projeto-PW-III-3DS-TB\\Views\\Funcionario\\CriarEditar.cshtml",
               "RelativeDocumentMoniker": "Views\\Funcionario\\CriarEditar.cshtml",
               "ToolTip": "C:\\Users\\Professor\\Desktop\\Projeto-PW-III-3DS-TB\\Views\\Funcionario\\CriarEditar.cshtml",
               "RelativeToolTip": "Views\\Funcionario\\CriarEditar.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-28T11:07:38.864Z",
               "EditorCaption": ""
@@ -87,8 +87,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-07T11:14:54.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-07T11:14:54.487Z"
             },
             {
               "$type": "Document",
@@ -122,46 +121,46 @@
               "RelativeDocumentMoniker": "Views\\Funcionario\\Index.cshtml",
               "ToolTip": "C:\\Users\\Professor\\Desktop\\Projeto-PW-III-3DS-TB\\Views\\Funcionario\\Index.cshtml",
               "RelativeToolTip": "Views\\Funcionario\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAtwAkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAtwCYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-31T10:55:11.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FuncionarioController.cs",
               "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\Projeto-PW-III-3DS-TB\\Controllers\\FuncionarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\FuncionarioController.cs",
               "ToolTip": "C:\\Users\\Professor\\Desktop\\Projeto-PW-III-3DS-TB\\Controllers\\FuncionarioController.cs",
               "RelativeToolTip": "Controllers\\FuncionarioController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAswCcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwC0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-31T10:51:36.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FuncionarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\Projeto-PW-III-3DS-TB\\Repository\\FuncionarioRepository.cs",
               "RelativeDocumentMoniker": "Repository\\FuncionarioRepository.cs",
               "ToolTip": "C:\\Users\\Professor\\Desktop\\Projeto-PW-III-3DS-TB\\Repository\\FuncionarioRepository.cs",
               "RelativeToolTip": "Repository\\FuncionarioRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwC0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-21T11:23:04.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IFuncionarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\Professor\\Desktop\\Projeto-PW-III-3DS-TB\\Repository\\IFuncionarioRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IFuncionarioRepository.cs",
               "ToolTip": "C:\\Users\\Professor\\Desktop\\Projeto-PW-III-3DS-TB\\Repository\\IFuncionarioRepository.cs",
               "RelativeToolTip": "Repository\\IFuncionarioRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-21T11:14:36.994Z",
               "EditorCaption": ""
